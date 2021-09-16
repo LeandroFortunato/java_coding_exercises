@@ -26,7 +26,13 @@ public class Exercise001 {
     }
 
     public int countLinuxUsers(List<User> users) {
-        // Add your code here
-        return 0;
+        System.out.println("-----**********-------HERE----------------------");
+        int n_linux_users = 0;
+        for (User i : users) {
+            if (i.getType() == "Linux") {
+                n_linux_users +=1;
+            }
+        }
+        return n_linux_users;
     }
 }
