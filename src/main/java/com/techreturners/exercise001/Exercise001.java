@@ -26,7 +26,6 @@ public class Exercise001 {
     }
 
     public int countLinuxUsers(List<User> users) {
-        System.out.println("-----**********-------HERE----------------------");
         int n_linux_users = 0;
         for (User i : users) {
             if (i.getType() == "Linux") {
