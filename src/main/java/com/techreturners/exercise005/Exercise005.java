@@ -8,8 +8,8 @@ public class Exercise005 {
         String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         boolean all_found = true;
             
-        for (int i = 0; i < alphabet.length(); i++) {
-            if (input.indexOf(alphabet.substring(i,i+1)) == -1) {
+        for (int each_letter = 0; each_letter < alphabet.length(); each_letter++) {
+            if (input.indexOf(alphabet.substring(each_letter,each_letter+1)) == -1) {
                 all_found = false;
                 break;
             };
