@@ -7,7 +7,7 @@ public class Exercise003 {
 
     public int getIceCreamCode(String iceCreamFlavour) {
          for (int each_flavor = 0; each_flavor < 6; each_flavor++) {
-             if (flavor[each_flavor] == iceCreamFlavour) {
+             if (flavor[each_flavor].equals(iceCreamFlavour)) {
                 return each_flavor;
              }
          }
